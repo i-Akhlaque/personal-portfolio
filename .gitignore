@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+*.swp
+
+# Source masters — the optimised copies in assets/img/ are what ship
+*.source.jpg
+*.source.png
+
+# Logs & deps (none today, but keeps future churn out of the diff)
+node_modules/
+npm-debug.log*
+*.log
